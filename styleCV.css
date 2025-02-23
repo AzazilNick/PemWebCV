@@ -1,0 +1,91 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    background-image: url('background_website.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2980B9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+h2:hover {
+    color: #3498DB;
+}
+
+p, pre {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f3ebdc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+.circular-image {
+    width: 258px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    position: absolute; 
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+    border: 5px solid #2980B9;
+}
+
+.education-experience, .skills-hobbies {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education, .experience, .skills, .hobbies {
+    flex: 1;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: #E7E1DB;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.education:hover, .experience:hover, .skills:hover, .hobbies:hover {
+    background-color: #D5C6B6; /* Warna saat hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2980B9;
+    color: white;
+    border-radius: 5px;
+}
