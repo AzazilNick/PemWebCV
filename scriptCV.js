@@ -43,7 +43,7 @@ $(document).ready(function () {
     });
 
   // Rating System
-    $("#skills").append(
+    $(".skills").append(
         '<div class="rating">Kemampuan: <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span></div>'
     );
 
